@@ -38,5 +38,15 @@ public class DataTypes {
         if compilation erros --> not run
          */
 
+        //System.out.println/printf is used to print the data in the console
+        //System.out.println/printf is used to concationation of different data types
+        //int int
+        System.out.println(25+25);
+        //String int
+        System.out.println("value is "+ 25);
+        //String float
+        System.out.println("float value     "+  29.8f);
+
+
     }
 }
