@@ -2,6 +2,13 @@ import java.awt.*;
 
 public class DataTypes {
     public static void main(String[] args) {
+        datatypes();
+        System.out.println("program completed");
+
+    }
+
+    //method define
+    public static void datatypes() {
         //print is used to print the string or word in a line, cursor is present in the same line after print the data/string.
         System.out.print("HELLO WORLD");
         //println is used to print the string or word in a line, then after cursor moved to the next line
@@ -12,7 +19,7 @@ public class DataTypes {
         //java is case-sensitive
         //java data types - 8 types primitive -8
         //byte short
-        int a =35;//mostly used
+        int a = 35;//mostly used
         long l = 435L;
         //double
         float d = 23.4f;
@@ -41,12 +48,11 @@ public class DataTypes {
         //System.out.println/printf is used to print the data in the console
         //System.out.println/printf is used to concationation of different data types
         //int int
-        System.out.println(25+25);
+        System.out.println(25 + 25);
         //String int
-        System.out.println("value is "+ 25);
+        System.out.println("value is " + 25);
         //String float
-        System.out.println("float value     "+  29.8f);
-
+        System.out.println("float value     " + 29.8f);
 
     }
 }
