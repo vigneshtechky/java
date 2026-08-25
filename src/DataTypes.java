@@ -9,7 +9,6 @@ public class DataTypes {
         System.out.print("HELLO WORLD");
 
         //variable is used to store the data
-        System.out.println("print to console");
         //java is case-sensitive
         //java data types - 8 types primitive -8
         //byte short
@@ -19,7 +18,9 @@ public class DataTypes {
         float d = 23.4f;
         char c = 'v';
         boolean b = false;
-
+        //non-primitive data type
+        String value = "print to console";
+        System.out.println(value);
         System.out.println(a);
         System.out.println(d);
         System.out.println(c);
@@ -31,6 +32,11 @@ public class DataTypes {
         System.out.println(b);
         System.out.println(b);
         System.out.println(l);
+
+        /*
+        compilation --> run
+        if compilation erros --> not run
+         */
 
     }
 }
